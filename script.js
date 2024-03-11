@@ -1,7 +1,8 @@
+function divide(numerator, denomenator) {
+  let result = numerator / denomenator;
+  return result;
+}
 
-
-function divide(numerator, denomenator){
-    let result = numerator / denomenator;
-    return result;
-    console.log(result);
+function sayHi() {
+  console.log("Hi");
 }
