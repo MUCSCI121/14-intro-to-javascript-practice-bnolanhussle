@@ -26,4 +26,8 @@ console.log("Add Result: ", addResult);
 
 // Create a function that takes one parameter, a message, and uses console log to write it out to the console
 
-function message
+function message(text) {
+  console.log(text);
+}
+
+message("One parameter function");
