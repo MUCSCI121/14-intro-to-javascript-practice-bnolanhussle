@@ -12,3 +12,5 @@ sayHi();
 
 let divideResult = divide(10, 5);
 console.log("Divide Result: ", divideResult);
+
+console.log("Second Divide Result: ", divide(35, 7));
