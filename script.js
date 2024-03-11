@@ -39,18 +39,10 @@ let calculate = (numberOne, numberTwo) => {
 let calcResult = calculate(5, 6);
 console.log("Calculate restult: ", calcResult);
 
-calculate = (numberOne, numberTwo) => {
-  return numberOne + numberTwo;
-};
+let student = "Gary";
 
-calcResult = calculate(5, 6);
-console.log("Calculate restult: ", calcResult);
-
-function car(){
-    let turnOnEngine = () => {
-
-    }
-    let openDoor = ()=> {
-        
-    }
+function printHelloToName(name) {
+  console.log("Hello " + name);
 }
+
+printHelloToName(student);
