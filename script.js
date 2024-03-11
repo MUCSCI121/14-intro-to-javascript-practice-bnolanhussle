@@ -6,4 +6,3 @@ function divide(numerator, denomenator) {
 function sayHi() {
   console.log("Hi");
 }
-
