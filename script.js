@@ -16,4 +16,6 @@ console.log("Divide Result: ", divideResult);
 console.log("Second Divide Result: ", divide(35, 7));
 
 // Create a function that has no parameters and adds 2 to 3 and then returns the result.
-function add()
+function add(){
+    
+}
