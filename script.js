@@ -46,3 +46,6 @@ function printHelloToName(name) {
 }
 
 printHelloToName(student);
+
+student = "Jill";
+printHelloToName(student);
