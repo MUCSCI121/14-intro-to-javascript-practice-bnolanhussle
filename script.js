@@ -38,3 +38,10 @@ let calculate = (numberOne, numberTwo) => {
 
 let calcResult = calculate(5, 6);
 console.log("Calculate restult: ", calcResult);
+
+calculate = (numberOne, numberTwo) => {
+  return numberOne + numberTwo;
+};
+
+calcResult = calculate(5, 6);
+console.log("Calculate restult: ", calcResult);
