@@ -26,8 +26,15 @@ console.log("Add Result: ", addResult);
 
 // Create a function that takes one parameter, a message, and uses console log to write it out to the console
 
-function message(text) {
-  console.log(text);
+function message(d) {
+  console.log(d);
 }
 
 message("One parameter function");
+
+let calculate = (numberOne, numberTwo) => {
+  return numberOne * numberTwo;
+};
+
+let calcResult = calculate(5, 6);
+console.log("Calculate restult: ", calcResult);
