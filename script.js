@@ -45,3 +45,12 @@ calculate = (numberOne, numberTwo) => {
 
 calcResult = calculate(5, 6);
 console.log("Calculate restult: ", calcResult);
+
+function car(){
+    let turnOnEngine = () => {
+
+    }
+    let openDoor = ()=> {
+        
+    }
+}
