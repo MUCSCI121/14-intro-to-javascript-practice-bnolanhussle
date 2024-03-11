@@ -23,3 +23,7 @@ function add() {
 
 let addResult = add();
 console.log("Add Result: ", addResult);
+
+// Create a function that takes one parameter, a message, and uses console log to write it out to the console
+
+
