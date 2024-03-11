@@ -49,3 +49,5 @@ printHelloToName(student);
 
 student = "Jill";
 printHelloToName(student);
+
+console.log("Numerator: ", numerator);
