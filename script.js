@@ -15,6 +15,7 @@ if ((temperature = 69) > 68) {
 
 console.log("Temperature: " + temperature);
 
+temperature = 120;
 if (temperature < 33) {
   console.log("Chance of snow");
 } else if (temperature < 70) {
