@@ -40,6 +40,9 @@ function testSomething(value) {
   }
   return "Chance of sand storms";
 }
+
+
+
 console.log("-----------------------");
 /*
  * Practice using functions
