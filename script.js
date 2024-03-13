@@ -30,6 +30,12 @@ if (true) {
 } else {
 }
 
+
+function testSomething(value){
+  if (true){
+    return 
+  }
+}
 console.log("-----------------------");
 /*
  * Practice using functions
