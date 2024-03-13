@@ -12,6 +12,7 @@ while (index < names.length) {
   index = index + 1;
 }
 
+index = 0;
 do {
   console.log("Yes we are awake? ", names[index]);
   index = index + 1;
