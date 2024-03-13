@@ -1,3 +1,8 @@
+let num = 0;
+
+while (num < 10) {}
+
+console.log("---------------------");
 // True Values:  any number 1 or greater, true
 // False Values:  0, false
 
@@ -40,8 +45,6 @@ function testSomething(value) {
   }
   return "Chance of sand storms";
 }
-
-
 
 console.log("-----------------------");
 /*
@@ -100,4 +103,4 @@ printHelloToName(student);
 student = "Jill";
 printHelloToName(student);
 
-console.log("Numerator: ", numerator);
+//console.log("Numerator: ", numerator);
