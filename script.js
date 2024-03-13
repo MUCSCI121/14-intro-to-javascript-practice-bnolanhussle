@@ -13,8 +13,17 @@ if ((temperature = 69) > 68) {
   console.log("Oops");
 }
 
-
 console.log("Temperature: " + temperature);
+
+if (temperature < 33) {
+  console.log("Chance of snow");
+} else if (temperature < 70) {
+  console.log("Chance of rain");
+} else if (temperature < 100) {
+  console.log("Chance of thunderstorms");
+} else {
+  console.log("Chance of sand storms");
+}
 
 console.log("-----------------------");
 /*
