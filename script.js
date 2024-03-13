@@ -12,6 +12,11 @@ while (index < names.length) {
   index = index + 1;
 }
 
+do {
+  console.log("Yes we are awake? ", names[index]);
+  index = index + 1;
+} while (index < names.length);
+
 console.log("---------------------");
 // True Values:  any number 1 or greater, true
 // False Values:  0, false
