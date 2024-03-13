@@ -30,11 +30,15 @@ if (true) {
 } else {
 }
 
-
-function testSomething(value){
-  if (true){
-    return 
+function testSomething(value) {
+  if (temperature < 33) {
+    return "Chance of snow";
+  } else if (temperature < 70) {
+    return "Chance of rain";
+  } else if (temperature < 100) {
+    return "Chance of thunderstorms";
   }
+  return "Chance of sand storms";
 }
 console.log("-----------------------");
 /*
