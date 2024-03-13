@@ -7,7 +7,9 @@ if (temperature == 68) {
   console.log("Perfect temperature");
 }
 
-if (-1) {
+// The below is a bad example, do not use single equals sign in if statement
+// It causes the value to be assigned instead of tested.
+if ((temperature = 69)) {
   console.log("Oops");
 }
 
