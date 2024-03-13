@@ -13,6 +13,7 @@ if ((temperature = 69) > 68) {
   console.log("Oops");
 }
 
+
 console.log("Temperature: " + temperature);
 
 console.log("-----------------------");
