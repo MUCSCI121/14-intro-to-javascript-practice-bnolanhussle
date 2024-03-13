@@ -25,11 +25,8 @@ if (temperature < 33) {
   console.log("Chance of sand storms");
 }
 
-if (some value){
-
-}
-else {
-
+if (true) {
+} else {
 }
 
 console.log("-----------------------");
