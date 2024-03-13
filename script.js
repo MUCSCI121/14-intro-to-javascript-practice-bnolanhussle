@@ -7,7 +7,7 @@ if (temperature == 68) {
   console.log("Perfect temperature");
 }
 
-if (false) {
+if (-1) {
   console.log("Oops");
 }
 
