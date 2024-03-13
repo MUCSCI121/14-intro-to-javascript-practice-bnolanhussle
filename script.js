@@ -1,7 +1,15 @@
 let num = 0;
 
-while (num < 10) {
+while (num <= 10) {
+  console.log("Num squared ", num * num);
   num = num + 1;
+}
+
+let names = ["Krisn'", "Daniel", "Alexander", "Steven"];
+let index = 0;
+while (index < names.length) {
+  console.log("Are you awake? ", names[index]);
+  index = index + 1;
 }
 
 console.log("---------------------");
