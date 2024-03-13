@@ -1,6 +1,8 @@
 let num = 0;
 
-while (num < 10) {}
+while (num < 10) {
+  num = num + 1;
+}
 
 console.log("---------------------");
 // True Values:  any number 1 or greater, true
