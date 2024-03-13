@@ -1,12 +1,17 @@
+// True Values:  any number 1 or greater, true
+// False Values:  0, false
+
 let temperature = 68;
 
 if (temperature == 68) {
   console.log("Perfect temperature");
 }
 
-if ((temperature = 68)) {
+if (false) {
   console.log("Oops");
 }
+
+console.log("Temperature: " + temperature);
 
 console.log("-----------------------");
 /*
