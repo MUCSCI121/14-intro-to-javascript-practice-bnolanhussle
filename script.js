@@ -1,3 +1,18 @@
+let temperature = 68;
+
+if (temperature == 68) {
+  console.log("Perfect temperature");
+}
+
+if ((temperature = 68)) {
+  console.log("Oops");
+}
+
+console.log("-----------------------");
+/*
+ * Practice using functions
+ */
+
 function divide(numerator, denomenator) {
   console.log("Divide started");
   let result = numerator / denomenator;
